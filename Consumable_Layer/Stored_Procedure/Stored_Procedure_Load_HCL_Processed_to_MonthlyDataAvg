@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE "Consumable_Layer"."Stored_Procedure_Load_HCL_Processed_to_Monthly_Data"()
+CREATE OR REPLACE PROCEDURE "Consumable_Layer"."Stored_Procedure_Load_HCL_Processed_to_MonthlyDataAvg"()
 LANGUAGE 'plpgsql'
 AS 
 $$
