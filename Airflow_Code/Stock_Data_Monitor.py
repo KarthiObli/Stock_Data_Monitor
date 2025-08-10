@@ -5,7 +5,7 @@ from datetime import datetime
 with DAG(
     dag_id='Stock_Data_Monitor',
     start_date=datetime(2025, 7, 5, 20),
-    schedule_interval= '@monthly',
+    schedule_interval= '0 0 5 * *',
     catchup=False,
 ) as dag:
 
